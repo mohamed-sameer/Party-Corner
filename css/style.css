@@ -1,0 +1,59 @@
+/*  */
+#hero {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url("../images/events-heavenly-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero {
+  /* width: calc(100% - 300px);
+  margin-left: 300px; */
+}
+
+#hero .side-menu {
+  position: fixed;
+  background-color: #111;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  transform: translateX(-300px);
+}
+#hero .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#hero .side-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+#hero .side-menu a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#hero .side-menu-btn {
+  align-self: flex-start;
+}
+#hero .hero-title {
+  font-size: 64px;
+}
+
+#singers .song-accordion .singer-details {
+  /* display: none; */
+}
+#singers .singer-title {
+  background-color: rgba(214, 46, 51, 0.6);
+  margin: 0;
+}
+
+#singers .singer-details {
+  background-color: #ccc;
+}
