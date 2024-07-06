@@ -57,3 +57,54 @@
 #singers .singer-details {
   background-color: #ccc;
 }
+
+#countDown {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url("../images/invitation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#countDown .time {
+  border: 1px solid #fff;
+}
+
+#contact .contact-header {
+  font-size: 48px;
+}
+
+#contact .contact-form textarea,
+#contact .contact-form input {
+  width: 100%;
+  padding: 7px 15px;
+  border-radius: 0;
+  border: 1px solid #999;
+  outline: none;
+}
+#contact .social li {
+  cursor: pointer;
+}
+#contact .social li span {
+  border: 1px solid #999;
+  padding: 10px;
+  transition: all 0.3s;
+}
+#contact .social li:hover span {
+  background-color: #d62e33;
+  border: 1px solid #d62e33;
+  color: #fff;
+}
+contact .social li span i {
+  color: #999;
+}
+
+#contact .contact-btn {
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+}
