@@ -1,3 +1,9 @@
 # Party Corner
 
-WIP
+this website is built using
+
+- html
+- css
+- bootstrap
+- javaScript
+- jQuery

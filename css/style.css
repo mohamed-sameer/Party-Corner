@@ -9,11 +9,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#hero {
-  /* width: calc(100% - 300px);
-  margin-left: 300px; */
+#hero > div {
+  width: 100%;
+  transition: all 0.5s;
 }
-
+#hero div.opened {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
+#hero,
+#hero div.opened,
+#hero .side-menu {
+  transition: all 0.5s;
+}
 #hero .side-menu {
   position: fixed;
   background-color: #111;
@@ -40,15 +48,12 @@
   color: rgba(214, 46, 51, 0.4);
 }
 #hero .side-menu-btn {
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 #hero .hero-title {
   font-size: 64px;
 }
 
-#singers .song-accordion .singer-details {
-  /* display: none; */
-}
 #singers .singer-title {
   background-color: rgba(214, 46, 51, 0.6);
   margin: 0;
